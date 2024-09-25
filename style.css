@@ -1,0 +1,48 @@
+body {
+    background-color: #8B0000; /* Cor vermelho sangue */
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajuste para cobrir toda a tela */
+    margin: 0;
+}
+
+button {
+    background-color: #641212; /* Tom de vermelho escuro para os botões */
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #7B1E1E; /* Efeito hover com tom mais claro */
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+    padding: 20px;
+    border: 2px solid #641212; /* Borda para o main */
+    border-radius: 10px;
+    background-color: #4C0A0A; /* Fundo interno mais escuro */
+}
+
+img {
+    max-width: 90%;
+    border-radius: 10px;
+    border: 2px solid #7B1E1E; /* Borda ao redor das imagens */
+}

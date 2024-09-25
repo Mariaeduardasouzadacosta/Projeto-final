@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Mansão dos Sussurros</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/mansao-passo0.png" alt="">
+            <p>Você está parado diante do portão da Mansão Evernight. Ele range suavemente ao vento, como se estivesse convidando você a entrar. O clima é pesado, e a lua cheia ilumina o caminho empoeirado até a porta principal da casa.</p>
+            <button class="btn-proximo" data-proximo="1">Forçar o portão e entrar na mansão.</button>
+            <button class="btn-proximo" data-proximo="2">Dar a volta pela propriedade.</button>
+            <button class="btn-proximo" data-proximo="3">Aguardar e observar.</button>
+        </div>
+        
+        <div class="passo" id="passo-1">
+            <p>Você coloca suas mãos no portão e, com um estalo alto, ele se abre. O som ecoa pela floresta ao seu redor, fazendo os corvos próximos levantarem voo. Você avança pelo caminho de pedras até a entrada principal da mansão. Ao tocar a maçaneta da pesada porta de madeira, ela se abre lentamente, revelando um vasto saguão iluminado apenas pelo luar que penetra pelas janelas quebradas.</p>
+            <button class="btn-proximo" data-proximo="4">Entrar no saguão e procurar por pistas.</button>
+            <button class="btn-proximo" data-proximo="5">Fechar a porta e investigar os arredores do saguão.</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Você decide ser cauteloso e dar a volta ao redor da mansão. Conforme caminha pelo mato alto, percebe marcas estranhas no chão, como se algo tivesse sido arrastado recentemente. Ao continuar, encontra uma pequena porta de serviço nos fundos da casa. Está destrancada.</p>
+            <button class="btn-proximo" data-proximo="6">Entrar pela porta de serviço.</button>
+            <button class="btn-proximo" data-proximo="1">Voltar para o portão principal.</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Você decide observar a mansão por mais alguns minutos. Enquanto está parado, você ouve um sussurro vindo do nada, como se alguém estivesse ao seu lado. Seu corpo fica frio, e ao virar a cabeça, percebe uma sombra se movendo em uma das janelas do segundo andar.</p>
+            <button class="btn-proximo" data-proximo="7">Correr para dentro da mansão.</button>
+            <button class="btn-proximo" data-proximo="8">Ir até a janela e observar a sombra.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você está no saguão da mansão. O ar é pesado e parece que o tempo parou ali dentro. Móveis antigos cobertos por lençóis estão espalhados pela sala. Há duas escadas que sobem para o segundo andar e duas portas no térreo, uma à esquerda e outra à direita. No fundo do saguão, um enorme espelho antigo reflete sua imagem, mas algo parece estranho... sua imagem no espelho não está sincronizada com seus movimentos.</p>
+            <button class="btn-proximo" data-proximo="9">Subir as escadas.</button>
+            <button class="btn-proximo" data-proximo="10">Entrar pela porta à esquerda.</button>
+            <button class="btn-proximo" data-proximo="11">Entrar pela porta à direita.</button>
+            <button class="btn-proximo" data-proximo="12">Examinar o espelho mais de perto.</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você fecha a porta atrás de si e começa a investigar o saguão. O ambiente parece ainda mais opressivo. Você sente uma brisa fria e ouve passos vindos do andar de cima.</p>
+            <button class="btn-proximo" data-proximo="9">Subir as escadas para investigar os passos.</button>
+            <button class="btn-proximo" data-proximo="13">Explorar os arredores do saguão.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você entra cautelosamente pela porta de serviço e se encontra em uma cozinha antiga. Há utensílios espalhados, como se alguém tivesse saído às pressas. Você ouve um barulho vindo de um armário.</p>
+            <button class="btn-proximo" data-proximo="14">Abrir o armário para investigar.</button>
+            <button class="btn-proximo" data-proximo="15">Ignorar o barulho e explorar a cozinha.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Ao correr para dentro da mansão, você entra no saguão. A sombra que você viu desapareceu, mas o ambiente ao seu redor parece mais sombrio. A atmosfera é opressiva, e você sente que não está sozinho.</p>
+            <button class="btn-proximo" data-proximo="9">Subir as escadas.</button>
+            <button class="btn-proximo" data-proximo="5">Investigar os arredores do saguão.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você se aproxima da janela e tenta observar a sombra. Ao se aproximar, uma figura encapuzada aparece brevemente, mas logo desaparece. O ar ao seu redor esfria, e você sente uma presença.</p>
+            <button class="btn-proximo" data-proximo="16">Correr para dentro da mansão.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você sobe as escadas de madeira, que rangem sob o peso de seus passos. Conforme avança, a temperatura ao seu redor cai drasticamente, e você sente uma presença atrás de você. Ao olhar para trás, vê uma figura encapuzada no fim da escada.</p>
+            <button class="btn-proximo" data-proximo="17">Correr para o corredor do segundo andar.</button>
+            <button class="btn-proximo" data-proximo="18">Enfrentar a figura.</button>
+        </div>
+
+        <!-- Adicione mais divs conforme necessário para expandir a história -->
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
